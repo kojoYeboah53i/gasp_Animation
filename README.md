@@ -1,7 +1,7 @@
 # gasp_Animation
-<div align="center> vanilla javascript animation
-<h1>Takes the guess work out of keyframes</h1>
+```vanilla javascript animation```
+##Takes the guess work out of keyframes
 
-</div>
+
 
 
