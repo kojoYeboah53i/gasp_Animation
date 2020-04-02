@@ -1,0 +1,36 @@
+
+.value{
+            width: 491px;
+   
+}
+ body{
+background: rgb(3, 192, 35);    
+
+}
+
+        .btn{
+        position : absolute;
+        background: magenta;
+       
+
+        }
+
+
+        #draggable { width: 150px; height: 150px; padding: 0.5em; }
+        div .bootstrap{ color: blue;   position: relative;left: 180px;top: -75px;}
+        
+@media only screen and (max-width: 491px) {
+                .value{
+             width: 7px;
+        }
+      
+
+        body{
+            background: lightblue;
+        }
+
+        div .bootstrap{ color: blue;   position: relative;left: 23px;top: -75px;}
+
+
+
+        }
