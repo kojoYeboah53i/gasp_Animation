@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 119, 255, 0), rgb(0, 47, 255));
+    z-index: -1;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    height: 10vh;
+    color: white;
+    align-items: center;
+}
+
+#logo{
+    grid-column: 2/3;
+    font-size: 24px;
+}
+
+.humburger{
+    max-width: 20px;
+    justify-self: end;
+}
+
+section{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    height: 60%;
+    width: 80%;
+    position: relative;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  /* very powerful css rule here mehn shit*/
+}
+
+.headline{
+    position: absolute;
+    font-size: 100px;
+    top: 70%;
+    left: 10%;
+    transform: translate(-20%, -70%);
+    color: white;
+    z-index: 3;
+}
+
+.hero::after{
+content: "";
+background: black;
+height: 100%;
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0.3;
+}
