@@ -1,0 +1,123 @@
+:root{
+    --gray-color:rgb(165, 165, 165);
+    --main-color1:rgb(49, 143, 150);
+    --main-color2:rgb(36, 120, 126);
+}
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#logform{
+    height: auto;width: 300px;height:auto;
+    padding: 10px;top:0;right: 0;left: 0;margin: auto;position: absolute;
+    margin-top: 250px;border-radius: 5px;background: white;
+    box-shadow: 0.001rem 0.001rem 20px rgb(21, 95, 99);
+}
+.cover{
+    height: 100%;width:100%;position: fixed;margin: auto; bottom: 0;
+    background: linear-gradient(to  bottom ,rgb(255, 255, 255),rgb(227, 236, 236),rgb(126, 202, 207),rgb(46, 135, 141),rgb(27, 97, 102));
+}
+#logo{
+    height: 100px;top:0;right: 0;left: 0;margin: auto;position: absolute;
+    margin-top: 100px;
+}
+#inp1{
+    padding: 10px;width: 93%;height: 25px;border: 1px solid var(--gray-color);
+    border-radius: 5px;font-size:15px;color: var(--main-color1);
+}
+#login{
+    height: 25px;width: 100%;height: 45px;cursor: pointer;
+    border-radius: 5px;background: var(--main-color1);
+    color: white;border: none;
+}
+#login:hover{
+    background: var(--main-color2);
+}
+#logotxt{
+    padding: 10px;margin-top: -10PX;
+}
+#d1{
+    color: var(--main-color1);
+}
+#d2{
+    color: var(--main-color2);
+}
+footer{
+    margin-top: 80vh;color: white;font-size: 12px;
+}
+#uimg{
+    height: 30px;position: absolute;margin-left: 160px;margin-top: 10px;
+}
+#uimg2{
+    height: 40px;margin-top: 5px;float: right;padding-right: 40px;
+}
+.uname{
+   float: right;width: fit-content;
+   font-size:20px;padding:10px;
+}
+.dash{
+    height:auto;width: 100px;border:1px solid var(--gray-color);
+}
+#cid{
+    height: 40px;width: 400px;border: 1px solid var(--main-color2);border-radius: 5px;
+    top:0;right: 0;left: 0;margin: auto;position: absolute;
+    box-shadow: 0.001rem 0.001rem 20px rgb(21, 95, 99);
+    margin-top: 100px;padding-left: 10px;font-size: 15px;
+}
+.dis{
+    height:auto;width: 400px;border: 1px solid var(--main-color2);border-radius: 5px;
+    top:0;right: 0;left: 0;margin: auto;position: absolute;
+    margin-top: 150px;padding:10px;background: white;
+    box-shadow: 0.001rem 0.001rem 20px rgb(21, 95, 99);
+}
+.gr1{
+    padding:10px;border:1px solid var(--gray-color);margin-top: 5px;
+    border-radius:5px;
+}
+.frame{
+    height:auto;width: 300px;
+    top:0;right: 0;left: 0;margin: auto;position: absolute;
+    margin-top: 100px;background: white;padding: 10px;
+    box-shadow: 0.001rem 0.001rem 20px rgb(21, 95, 99);border-radius:5px;
+}
+.inp{
+    height: 35px;padding-left: 10px;width: 95%;
+    margin-top: 5px;
+}
+.si{
+    height: 25px;width: 100%;height: 45px;cursor: pointer;
+    border-radius: 5px;background: var(--main-color1);
+    color: white;border: none;
+}
+/* 
+    ----------------------------- Music Is A Time Machine ---------------------------------
+
+    the sound of Music creates memory patterns in 
+    our brains such that no matter how long  
+    that song is played it brings back the 
+    memories of that particular day to existence
+
+    therefore music is a time machine
+
+    Time machine was long invented By man but they just dont realize it, 
+    i might not know how you listern to music , maybe just for fun , 
+    but accually music is a wheel that sends the soul back to time 
+
+    once you listern consistently the memory will be created 
+
+    i create my memories with music , dont know about you ,
+    but start creating one ...
+
+    i think the reason why apple can never be forgotten is that the first hand-held device 
+    they created was a music device (ipod) before the rest followed
+
+                                                                           by Richard Obiri
+    ---------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+

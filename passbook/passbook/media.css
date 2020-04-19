@@ -1,0 +1,36 @@
+@media screen and (max-width:425px)
+{
+    #logform{
+        width:300px;
+    }
+    #inp1{
+        width:91%;
+    }
+    .cover{
+        overflow: scroll;
+    }
+    .dis{
+        width: 90%;
+    }
+    #cid{
+        width: 90%;
+    }
+}
+@media screen and (max-width:369px)
+{
+   #uimg{
+       margin-left: 10px;
+   }
+   #logotxt{
+       margin-top: 30px;
+   }
+}
+@media screen and (max-width:320px)
+{
+    #logform{
+        width:250px;
+    }
+    #inp1{
+        width:91%;
+    }
+}
